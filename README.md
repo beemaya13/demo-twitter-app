@@ -10,11 +10,12 @@ The Demo Twitter Application is a simplified version of a social media platform 
 - Follow and unfollow other users.
 - View a feed of posts from users they follow, including comments and likes.
 
-This project is designed to demonstrate the use of modern Java frameworks and tools for building a RESTful API with authentication, persistence, and documentation.
+This project is designed to demonstrate the use of modern frameworks and tools with Groovy for building a RESTful API with authentication, persistence, and documentation.
 
 ## Technologies Used
 
-- **Java 17**: Main programming language.
+- **Groovy**: Main programming language.
+- **Java 17**: Runtime environment.
 - **Spring Boot**: Framework for building the application.
     - **Spring Security**: Manages user authentication and authorization.
     - **Spring Data MongoDB**: Database support for MongoDB.
@@ -96,7 +97,7 @@ Once the application is running, you can access the Swagger UI for testing and e
 
 ## Project Structure
 
-- `src/main/java/com/nilga/demotwitter/`: Main application files.
+- `src/main/groovy/com/nilga/demotwitter/`: Main application files.
     - `controller/`: REST API controllers.
     - `service/`: Business logic for the application.
     - `repository/`: MongoDB repositories.
