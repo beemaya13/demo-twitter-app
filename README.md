@@ -24,6 +24,7 @@ This project is designed to demonstrate the use of modern frameworks and tools w
 - **Swagger/OpenAPI**: For API documentation and testing.
 - **Gradle**: Build automation tool.
 - **Spock Framework**: For testing the application (Groovy-based).
+- **Docker**: Containerization tool for packaging the application for deployment.
 
 ## API Documentation
 
@@ -36,6 +37,7 @@ Before running the application, ensure you have the following installed:
 - Java 17 or higher
 - MongoDB (running locally or on a cloud service)
 - Gradle (optional, for custom builds)
+- Docker (optional, for containerized deployment)
 
 ## Getting Started
 
